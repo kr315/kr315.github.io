@@ -1,0 +1,1 @@
+koncepcja architektury modularnego systemu smart-home
