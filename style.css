@@ -65,7 +65,6 @@ body {
 }
 
 img {
-    box-shadow: 0px 2px 1px 10px rgba(0, 0, 0, 0.1);
     border-radius: 0px;
     padding: 5px;
     max-height: 50px;
@@ -87,33 +86,20 @@ div {
     -ms-transition:color 1.6s;
     -moz-transition:color 1.6s;
     -webkit-transition:color 1.6s;
-    transition:color 1.6s;
-}
-div.head {
-    font-size: 400pt;
-    font-weight: bolder;
-    position: absolute; top: 5px; left: 5px;
+    transition:color 0.7s;
 }
 
 
-
-#head_txt {
-    position: absolute; top: 1%; left: 5%;
-    font-weight: bold;
-    font-size: large;
+div.blinds {
+    position: absolute;
+    font-family:'Courier New', Courier, monospace;
+    color: #b000e010;
+    font-size: 20px;
 }
-
-
-
-a {
-    font-family:'Courier New', Courier, monospace; 
-    color: #000000; /* #d0d0d0;*/
-    text-decoration: none;
-    -o-transition:color 1.6s;
-      -ms-transition:color 1.6s;
-      -moz-transition:color 1.6s;
-      -webkit-transition:color 1.6s;
-      transition:color 1.6s;
+div.blinds:hover {
+    font-family:'Courier New', Courier, monospace;
+    color: #ffffff1a;
+    font-size: 20px;
 }
 
 div.eff1 {
@@ -151,7 +137,7 @@ div.eff3 {
     font-family:'Courier New', Courier, monospace; 
     color: #b000e030;
     text-decoration: none;
-    font-size: 400px;
+    font-size: 350px;
     overflow: visible;
 }
 div.eff3:hover {
@@ -201,42 +187,3 @@ div.eff5:hover {
 
 
 
-
-div.link:hover {
-    
-    font-family:'Courier New', Courier, monospace; 
-    color: #ff007b;
-    text-decoration: none;
-    font-size: xx-large;
-}
-
-
-
-#container{
-    width: 98%;
-    border-radius: 1px;
-    border-style: solid;
-    border-width: 0.1em;
-    border-color: #303030;
-    padding: 0.5em;
-    float: left;
-    text-align: right;
-    font-size: medium;
-    margin: 3px;
-}
-
-#floated{
-    float: left;
-}
-
-div.index{
-    width: 98%;
-    border-radius: 10px;
-    border-style: solid;
-    border-width: 0.1em;
-    border-color: #303030;
-    padding: 0.5em;
-    float: left;
-    text-align: left;
-    transform: rotate3d(15%, 15%, 15%)
-}

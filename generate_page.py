@@ -33,7 +33,12 @@ def buffer_main_snippets():
     return [head, menu, foot] 
 
 def create_index_content():
-    index_content = open("snippets/index_content.html", "r").read()
+    index_content = "\n"
+    index_content += open("snippets/index_content.html", "r").read() + "\n\n"
+    index_content += generate_blinds(columns=7, rows=40, width=3, size=568)
+    
+    
+    
     return index_content
 
 def create_portfolio_content():
@@ -74,6 +79,27 @@ def create_png_list(filename, list):
 def create_txt_list(filename, list):
     if filename.endswith(".txt"):
         list.append(filename[:-4])
+
+import random
+def generate_blinds(columns, rows, width, size):
+    symbols = "!@#$^&*()_+|}{\"\':?>,./;[]\\=-"
+    txt = ""
+    w, r = width, rows
+    
+    c = columns
+    while(c):
+        txt += "<div class=\"blinds\" style=\"position: absolute; top: 0px; left: " + str((c-1)*size/(columns)) + "px;\">"
+        r = rows
+        while(r):
+            w = width
+            while(w):
+                txt += symbols[int(random.random()*len(symbols))]
+                w -= 1
+            txt += "<br>"
+            r -= 1
+        c -= 1
+        txt += "</div>\n"
+    return txt
 
 
 def main():
