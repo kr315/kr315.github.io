@@ -1,2 +1,0 @@
-dwunastokanałowy wzmacniacz klasy AB o mocy ~20W na kanał<br>
-wykorzystany układ LM1875, zasilanie SMPS 2 * 120W, +/-24V

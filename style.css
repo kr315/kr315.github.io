@@ -71,9 +71,6 @@ img {
     max-height: 50px;
   }
   
-img:hover {
-    transform: scale(5) rotate(5deg) translate(25%);
-  }
 
 #headimage {
     position:static;
@@ -83,13 +80,19 @@ img:hover {
     transform: none;
 }
 
+
 div {
     vertical-align: middle;
+    -o-transition:color .7s;
+    -ms-transition:color .7s;
+    -moz-transition:color .7s;
+    -webkit-transition:color .7s;
+    transition:color .7s;
 }
 div.head {
     font-size: large;
     font-weight: bolder;
-    position: absolute; top: 0px; left: 0px;
+    position: absolute; top: 5px; left: 5px;
 }
 
 div.menu {
@@ -127,11 +130,21 @@ a {
       transition:color .7s;
 }
 
-a:hover {
+div.systemeng:hover {
     
     font-family:'Courier New', Courier, monospace; 
     color: #b000e0;
     text-decoration: none;
+    /* transform: scale(1) rotate(5deg) translate3d(5%, 20%, 0); */
+    font-size: xx-large;
+}
+
+div.link:hover {
+    
+    font-family:'Courier New', Courier, monospace; 
+    color: #ff007b;
+    text-decoration: none;
+    font-size: xx-large;
 }
 
 #container{
@@ -151,7 +164,7 @@ a:hover {
     float: left;
 }
 
-#index{
+div.index{
     width: 98%;
     border-radius: 10px;
     border-style: solid;
@@ -160,4 +173,5 @@ a:hover {
     padding: 0.5em;
     float: left;
     text-align: left;
+    transform: rotate3d(15%, 15%, 15%)
 }
