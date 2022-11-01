@@ -80,7 +80,7 @@ def main():
 
     page_snippets = buffer_main_snippets()  # head, menu, foot
     create_page("index", page_snippets)
-    create_page("portfolio", page_snippets)
+    # create_page("portfolio", page_snippets)
 
     # create_page("portfolio")
 
