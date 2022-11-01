@@ -1,2 +1,10 @@
-# OS desktop files
 *.DS_Store
+
+*.o
+*.bin
+*.elf
+*.raw
+
+*.log
+
+*.plt
