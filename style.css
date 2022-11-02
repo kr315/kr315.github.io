@@ -95,7 +95,7 @@ div.blinds {
     font-family:'Courier New', Courier, monospace;
     color: #a8ffc904;
     font-size: 20px;
-    transition: color 0.2s, font-size: 3.0s;
+    transition: color 0.2s, font-size 3.0s ease-in-out;
 }
 div.blinds:hover {
     font-family:'Courier New', Courier, monospace;
