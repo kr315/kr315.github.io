@@ -82,23 +82,24 @@ img {
 
 div {
     vertical-align: middle;
-    -o-transition:color 1.6s;
-    -ms-transition:color 1.6s;
-    -moz-transition:color 1.6s;
-    -webkit-transition:color 1.6s;
-    transition:color 0.7s;
+    -o-transition: color 1.0s, font-size 2.0s;
+    -ms-transition: color 1.0s, font-size 2.0s;
+    -moz-transition: color 1.0s, font-size 2.0s;
+    -webkit-transition: color 1.0s, font-size 2.0s;
+    transition: color 1.0s, font-size 3.0s ease-in-out;
 }
 
 
 div.blinds {
     position: absolute;
     font-family:'Courier New', Courier, monospace;
-    color: #b000e010;
+    color: #a8ffc904;
     font-size: 20px;
+    transition: color 0.2s;
 }
 div.blinds:hover {
     font-family:'Courier New', Courier, monospace;
-    color: #ffffff1a;
+    color: #011000f2;
     font-size: 20px;
 }
 
@@ -107,14 +108,16 @@ div.eff1 {
     font-family:'Courier New', Courier, monospace; 
     color: #b000e020;
     text-decoration: none;
-    font-size: 400px;
+    font-size: 600px;
     overflow: hidden;
+    
 }
 div.eff1:hover {
     
     font-family:'Courier New', Courier, monospace; 
     color: #b000e080;
     text-decoration: none;
+    font-size: 400px;
 }
 
 div.eff2 {
@@ -122,7 +125,7 @@ div.eff2 {
     font-family:'Courier New', Courier, monospace; 
     color: #b000e025;
     text-decoration: none;
-    font-size: 300px;
+    font-size: 350px;
     overflow: hidden;
 }
 div.eff2:hover {
@@ -130,6 +133,7 @@ div.eff2:hover {
     font-family:'Courier New', Courier, monospace; 
     color: #b000e060;
     text-decoration: none;
+    font-size: 500px;
 }
 
 div.eff3 {
@@ -145,6 +149,7 @@ div.eff3:hover {
     font-family:'Courier New', Courier, monospace; 
     color: #b000e065;
     text-decoration: none;
+    font-size: 200px;
 }
 
 div.eff4 {
@@ -152,7 +157,7 @@ div.eff4 {
     font-family:'Courier New', Courier, monospace; 
     color: #b000e035;
     text-decoration: none;
-    font-size: 300px;
+    font-size: 250px;
     overflow: hidden;
 }
 div.eff4:hover {
@@ -160,6 +165,7 @@ div.eff4:hover {
     font-family:'Courier New', Courier, monospace; 
     color: #b000e0aa;
     text-decoration: none;
+    font-size: 300px;
 }
 
 div.eff5 {
@@ -175,6 +181,7 @@ div.eff5:hover {
     font-family:'Courier New', Courier, monospace; 
     color: #b000e0ff;
     text-decoration: none;
+    font-size: 300px;
 }
 
 

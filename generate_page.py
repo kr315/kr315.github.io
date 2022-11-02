@@ -35,7 +35,7 @@ def buffer_main_snippets():
 def create_index_content():
     index_content = "\n"
     index_content += open("snippets/index_content.html", "r").read() + "\n\n"
-    index_content += generate_blinds(columns=7, rows=40, width=3, size=568)
+    index_content += generate_blinds(columns=7, rows=30, width=3, size=568)
     
     
     
