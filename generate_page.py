@@ -72,7 +72,7 @@ def create_page(page_type, snippets):
 def create_index_content():
     index_content = '\n'
     index_content += open(index_content_file, 'r').read() + '\n\n'
-    index_content += generate_blinds(columns=7, rows=30, width=3, size=568)
+    index_content += generate_blinds(columns=7, length=30, width=3, size_in_px=568)
     return index_content
 
 def create_portfolio_content():
