@@ -86,7 +86,7 @@ div {
     -ms-transition: color 1.0s, font-size 2.0s;
     -moz-transition: color 1.0s, font-size 2.0s;
     -webkit-transition: color 1.0s, font-size 2.0s;
-    transition: color 1.0s, font-size 3.0s ease-in-out;
+    transition: color 1.0s ease-in-out, font-size 3.0s ease-in-out;
 }
 
 
@@ -95,12 +95,12 @@ div.blinds {
     font-family:'Courier New', Courier, monospace;
     color: #a8ffc904;
     font-size: 20px;
-    transition: color 0.2s;
+    transition: color 0.2s, font-size: 3.0s;
 }
 div.blinds:hover {
     font-family:'Courier New', Courier, monospace;
     color: #011000f2;
-    font-size: 20px;
+    font-size: 60px;
 }
 
 div.eff1 {
