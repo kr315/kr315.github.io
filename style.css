@@ -1,0 +1,196 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+    border-spacing: 10px;
+}
+
+body {
+    text-align: center;
+    background-color: #001706ff;      /*#3a3a40;*/
+    min-width: 300px;
+    max-width: 1024px;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
+    /* padding: 1%; */
+    width: 96%;
+    font-size: large;
+    font-family:'Courier New', Courier, monospace; 
+    font-weight: bold;
+    color: #000000;
+    overflow: hidden;
+}
+
+img {
+    border-radius: 0px;
+    padding: 5px;
+    max-height: 50px;
+  }
+  
+
+#headimage {
+    position:static;
+    box-shadow: none;
+    border-style: none;
+    width: 98%;
+    transform: none;
+}
+
+
+div {
+    vertical-align: middle;
+    -o-transition: color 1.0s, font-size 2.0s;
+    -ms-transition: color 1.0s, font-size 2.0s;
+    -moz-transition: color 1.0s, font-size 2.0s;
+    -webkit-transition: color 1.0s, font-size 2.0s;
+    transition: color 1.0s ease-in-out, font-size 3.0s ease-in-out;
+}
+
+
+div.blinds {
+    position: absolute;
+    font-family:'Courier New', Courier, monospace;
+    color: #a8ffc904;
+    font-size: 20px;
+    transition: color 0.2s, font-size 3.0s ease-in-out;
+}
+div.blinds:hover {
+    font-family:'Courier New', Courier, monospace;
+    color: #011000f2;
+    font-size: 60px;
+}
+
+div.eff1 {
+    position: absolute; top: 0px; left: -150px;
+    font-family:'Courier New', Courier, monospace; 
+    color: #b000e020;
+    text-decoration: none;
+    font-size: 600px;
+    overflow: hidden;
+    
+}
+div.eff1:hover {
+    
+    font-family:'Courier New', Courier, monospace; 
+    color: #b000e080;
+    text-decoration: none;
+    font-size: 400px;
+}
+
+div.eff2 {
+    position: absolute; top: 100px; left: -15px;
+    font-family:'Courier New', Courier, monospace; 
+    color: #b000e025;
+    text-decoration: none;
+    font-size: 350px;
+    overflow: hidden;
+}
+div.eff2:hover {
+    
+    font-family:'Courier New', Courier, monospace; 
+    color: #b000e060;
+    text-decoration: none;
+    font-size: 500px;
+}
+
+div.eff3 {
+    position: absolute; top: 200px; left: -100px;
+    font-family:'Courier New', Courier, monospace; 
+    color: #b000e030;
+    text-decoration: none;
+    font-size: 350px;
+    overflow: visible;
+}
+div.eff3:hover {
+    
+    font-family:'Courier New', Courier, monospace; 
+    color: #b000e065;
+    text-decoration: none;
+    font-size: 200px;
+}
+
+div.eff4 {
+    position: absolute; top: 300px; left: 30px;
+    font-family:'Courier New', Courier, monospace; 
+    color: #b000e035;
+    text-decoration: none;
+    font-size: 250px;
+    overflow: hidden;
+}
+div.eff4:hover {
+    
+    font-family:'Courier New', Courier, monospace; 
+    color: #b000e0aa;
+    text-decoration: none;
+    font-size: 300px;
+}
+
+div.eff5 {
+    position: absolute; top: 400px; left: 5px;
+    font-family:'Courier New', Courier, monospace; 
+    color: #b000e040;
+    text-decoration: none;
+    font-size: 200px;
+    overflow: hidden;
+}
+div.eff5:hover {
+    
+    font-family:'Courier New', Courier, monospace; 
+    color: #b000e0ff;
+    text-decoration: none;
+    font-size: 300px;
+}
+
+
+
+
+
+
+
+
+
+
+
