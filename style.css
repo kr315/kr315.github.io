@@ -60,7 +60,6 @@ body {
     font-size: large;
     font-family:'Courier New', Courier, monospace; 
     font-weight: bold;
-    color: #000000;
     overflow: hidden;
 }
 
@@ -70,7 +69,6 @@ img {
     max-height: 50px;
   }
   
-
 #headimage {
     position:static;
     box-shadow: none;
@@ -89,6 +87,11 @@ div {
     transition: color 1.0s ease-in-out, font-size 3.0s ease-in-out;
 }
 
+div#navigation {font-family:'Courier New', Courier, monospace; font-size: 16px;}
+div#navigation a:link { color: #c500b4; transition: color 1.8s, font-size 3.0s ease-in-out;}
+div#navigation a:visited { color: #be00ae; transition: color 1.8s, font-size 3.0s ease-in-out;}
+div#navigation a:hover { color: #d400c3; font-size: 20px; transition: color 0.8s, font-size 1.0s ease-in-out;}
+div#navigation a:active { color: #e600d3; font-size: 20px; transition: color 0.8s, font-size 1.0s ease-in-out;}
 
 div.blinds {
     position: absolute;
@@ -183,14 +186,4 @@ div.eff5:hover {
     text-decoration: none;
     font-size: 300px;
 }
-
-
-
-
-
-
-
-
-
-
 

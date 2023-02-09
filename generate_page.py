@@ -20,16 +20,12 @@
 #               ...          - new page
 
 import random
-from cgitb import html
-from email import header
 from os import listdir
 
 
 
-def create_menu():
-    menu = '' 
-    # mdfiles tree
-    return menu
+
+
 
 def create_page():
     snippets = ['snippets/head.html',
@@ -89,9 +85,13 @@ def create_portfolio_content():
     # print(content_list) 
     return portfolio_content
 
-# =================================================
-#       EFFECTS
-#
+def create_menu():
+    menu = '' 
+    # mdfiles tree
+    return menu
+
+# =============  EFFECTS  ======================
+
 # generate blinds of random symbols in symbols_list
 # 'columns' is number of columns fitted in size_in_px
 # by columns of 'width' x 'length' symbols
@@ -116,4 +116,4 @@ def generate_blinds(columns, length, width, size_in_px):
 
 
 create_page()
-print("asd")
+print("page generated")
