@@ -42,9 +42,7 @@ def create_page():
     # writing to file
     output_file_handle = open(filename, 'w')
     output_file_handle.write(snippets[0])               # head
-    output_file_handle.write(create_menu())               # menu
     output_file_handle.write(create_index_content())
-    output_file_handle.write(create_portfolio_content())  # content
     output_file_handle.write(snippets[2])               # foot
     output_file_handle.close()
 
@@ -55,7 +53,7 @@ def create_index_content():
     index_content_file = 'snippets/index_content.html'
     index_content = '\n'
     index_content += open(index_content_file, 'r').read() + '\n\n'
-    index_content += generate_blinds(columns=7, length=30, width=3, size_in_px=568)
+    # index_content += generate_blinds(columns=7, length=30, width=3, size_in_px=568)
     return index_content
 
 def create_portfolio_content():

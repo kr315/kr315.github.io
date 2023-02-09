@@ -88,10 +88,10 @@ div {
 }
 
 div#navigation {font-family:'Courier New', Courier, monospace; font-size: 16px;}
-div#navigation a:link { color: #c500b4; transition: color 1.8s, font-size 3.0s ease-in-out;}
-div#navigation a:visited { color: #be00ae; transition: color 1.8s, font-size 3.0s ease-in-out;}
-div#navigation a:hover { color: #d400c3; font-size: 20px; transition: color 0.8s, font-size 1.0s ease-in-out;}
-div#navigation a:active { color: #e600d3; font-size: 20px; transition: color 0.8s, font-size 1.0s ease-in-out;}
+div#navigation a:link { color: #000000; transition: color 1.8s, font-size 3.0s ease-in-out;}
+div#navigation a:visited { color: #000000; transition: color 1.8s, font-size 3.0s ease-in-out;}
+div#navigation a:hover { color: #000000; font-size: 20px; transition: color 0.8s, font-size 1.0s ease-in-out;}
+div#navigation a:active { color: #000000; font-size: 20px; transition: color 0.8s, font-size 1.0s ease-in-out;}
 
 div.blinds {
     position: absolute;
@@ -107,7 +107,7 @@ div.blinds:hover {
 }
 
 div.eff1 {
-    position: absolute; top: 0px; left: -150px;
+    position: absolute; top: -100px; left: 150px;
     font-family:'Courier New', Courier, monospace; 
     color: #b000e020;
     text-decoration: none;
@@ -124,7 +124,7 @@ div.eff1:hover {
 }
 
 div.eff2 {
-    position: absolute; top: 100px; left: -15px;
+    position: absolute; top: 0px; left: 100px;
     font-family:'Courier New', Courier, monospace; 
     color: #b000e025;
     text-decoration: none;
@@ -140,7 +140,7 @@ div.eff2:hover {
 }
 
 div.eff3 {
-    position: absolute; top: 200px; left: -100px;
+    position: absolute; top: 100px; left: 50px;
     font-family:'Courier New', Courier, monospace; 
     color: #b000e030;
     text-decoration: none;
@@ -156,7 +156,7 @@ div.eff3:hover {
 }
 
 div.eff4 {
-    position: absolute; top: 300px; left: 30px;
+    position: absolute; top: 0px; left: 0px;
     font-family:'Courier New', Courier, monospace; 
     color: #b000e035;
     text-decoration: none;
@@ -172,7 +172,7 @@ div.eff4:hover {
 }
 
 div.eff5 {
-    position: absolute; top: 400px; left: 5px;
+    position: absolute; top: 0px; left: -50px;
     font-family:'Courier New', Courier, monospace; 
     color: #b000e040;
     text-decoration: none;
