@@ -88,10 +88,10 @@ div {
 }
 
 div#navigation {font-family:'Courier New', Courier, monospace; font-size: 16px;}
-div#navigation a:link { color: #444444; transition: color 1.8s, font-size 3.0s ease-in-out;}
-div#navigation a:visited { color: #444444; transition: color 1.8s, font-size 3.0s ease-in-out;}
-div#navigation a:hover { color: #444444; font-size: 20px; transition: color 0.8s, font-size 1.0s ease-in-out;}
-div#navigation a:active { color: #444444; font-size: 20px; transition: color 0.8s, font-size 1.0s ease-in-out;}
+div#navigation a:link { color: #444444; transition: color 1.8s;}
+div#navigation a:visited { color: #444444; transition: color 1.8s;}
+div#navigation a:hover { color: #d118c8; font-size: 16px; transition: color 0.8s;}
+div#navigation a:active { color: #d118c8; font-size: 16px; transition: color 0.8s;}
 
 div#description {font-family: 'Courier New', Courier, monospace; font-size: 14px; color: #ffffff }
 
