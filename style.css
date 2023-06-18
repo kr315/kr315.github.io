@@ -88,12 +88,12 @@ div {
 }
 
 div#navigation {font-family:'Courier New', Courier, monospace; font-size: 16px;}
-div#navigation a:link { color: #444444; transition: color 1.8s;}
+div#navigation a:link { color: #ffffff; transition: color 1.8s;}
 div#navigation a:visited { color: #444444; transition: color 1.8s;}
 div#navigation a:hover { color: #d118c8; font-size: 16px; transition: color 0.8s;}
 div#navigation a:active { color: #d118c8; font-size: 16px; transition: color 0.8s;}
 
-div#description {font-family: 'Courier New', Courier, monospace; font-size: 14px; color: #ffffff }
+div#description {font-family: 'Courier New', Courier, monospace; font-size: 14px; color: #444444 }
 
 div.blinds {
     position: absolute;
