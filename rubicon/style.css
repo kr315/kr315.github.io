@@ -1,0 +1,82 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: separate;
+    border-spacing: 1px;
+    border-width: 2px;
+    border-color: #ffeeee;
+    border-style: ridge;
+}
+
+tr.head {
+    color: #ff3344;
+	border-collapse: separate;
+    border-spacing: 1px;
+    border-width: 1px;
+    border-color: #ffffff;
+    border-style: solid;
+}
+
+td {
+	border-collapse: separate;
+    border-spacing: 1px;
+    border-width: 1px;
+    border-color: #ffffff;
+    border-style: solid;
+}
+
+body {
+    text-align: left;
+    background-color: #aabbaa;      /*#3a3a40;*/
+    min-width: 300px;
+    max-width: 1024px;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
+    /* padding: 1%; */
+    width: 96%;
+    font-size: large;
+    font-family:'Courier New', Courier, monospace; 
+    font-weight: bold;
+    /* overflow: hidden; */
+}
+
+
+div {position: relative; color: #443322; font-family:'Courier New', Courier, monospace; font-size: 16px;}

@@ -1,0 +1,33 @@
+W załączniku są trzy pliki - jeden w formacie CSV, drugi - JSON, trzeci LDIF. Pliki zawierają dane o zamówieniach leków przez klientów. 
+
+Struktura kolumn jest następująca:
+
+Customer - imię i nazwisko klienta
+
+Country - kraj
+
+Order - nazwa zamawianego leku
+
+Status - status matrymonialny
+
+Group - grupa klienta
+
+ 
+
+ 
+
+Zadanie polega na przygotowaniu narzędzia, które: 
+
++ wczyta dane z plików
+
++ wyświetli ranking 30 najlepiej sprzedających się leków (pogrupowane po nazwie leku - kolumna "Order")
+
++ W podziale na grupy klienta wyświetli kraj, z którego pochodzi największa liczba klientów w danej grupie. Jeśli więcej niż jeden kraj ma tę samą największą liczbę klientów - powinny być wyświetlone wszystkie kraje, po przecinku. 
+
++ dla każdego rodzaju statusu matrymolnianego - określi czy ludzi z takim statusem było więcej w pliku CSV, w pliku JSON, czy w pliku LDIF Jeśli w dwóch lub trzech jest ta sama największa liczba - powinny zostać wyświetlone odpowiednio wszystkie symbole plików. 
+
+- poda sumaryczną ilość spółgłosek zapisanych w polu "Customer" (bez spacji), dla wszystkich rekordów łącznie. 
+
+ 
+
+Dane powinny wyświetlić się na stronie www.
