@@ -102,7 +102,10 @@ def create_bio():
                         splitline = element.replace('- ', '').split(' / ')
                         html_code += '<li>'
                         for i in splitline:
-                            html_code += i + '<br>\n'
+                            if i.startswith('http'):
+                                html_code += '<a href=\"' + i + '\">' + i + '</a><br>\n'
+                            else:
+                                html_code += i + '<br>\n'
                         html_code += '</li>\n<br>'
                     elif element.startswith('\n'):
                         break
