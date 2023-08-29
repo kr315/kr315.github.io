@@ -86,11 +86,12 @@ def create_menu():
     return menu
 
 def create_bio():
-    
+    html_code = ''
+    with open('snippets/head.html', 'r') as file_handle:
+        html_code += file_handle.read()
     with open('portfolio/art-bio.md', 'r') as file_handle:
         bio_file = file_handle.readlines()
-        html_code = '<h1>bio</h1>\n'
-
+        html_code += '<h1>Biogram</h1>\n'
         for idx ,line in enumerate(bio_file):
             if '##' in line:
                 html_code += '<h2>' + line.replace('## ', '').replace('\n', '') + '</h2>\n<ul>\n'
@@ -99,7 +100,7 @@ def create_bio():
                     if line.startswith('!'):
                         pass
                     elif element.startswith('-'):
-                        splitline = element.replace('- ', '').split(' / ')
+                        splitline = element.replace('- ', '').replace('\n', '').split(' / ')
                         html_code += '<li>'
                         for i in splitline:
                             if i.startswith('http'):
@@ -110,14 +111,10 @@ def create_bio():
                     elif element.startswith('\n'):
                         break
                 html_code += '</ul>\n<br>\n'
-                
-                    
         print(html_code)
         output_file = open('portfolio/index.html', 'w+')
         output_file.writelines(html_code)
         output_file.close()
-
-            
 
 
 # =============  EFFECTS  ======================
@@ -143,7 +140,5 @@ def generate_blinds(columns, length, width, size_in_px):
         c -= 1
         txt += '</div>\n'
     return txt
-
-
 
 create_bio()
