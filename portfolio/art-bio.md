@@ -21,8 +21,8 @@
 
 ## Edukacja
 !- 2023-... / Politechnika Warszawska / Informatyka
-- 2010-2014 / Akademia Górniczo-Hutnicza w Krakowie / Inżynieria Akustyczna
-- 2008-2010 / Politechnika Wrocławska, Politechnika Gdańska / Elektronika i Telekomunikacja
+- 2010-2014 / Inżynieria Akustyczna / Akademia Górniczo-Hutnicza w Krakowie
+- 2008-2010 / Elektronika i Telekomunikacja / Politechnika Wrocławska, Politechnika Gdańska
 - 2019 / Scrum Master Training / prowadzenie projektów w metodzie Scrum
 - 2019 / International Software Testing Qualifications Board - Foundation Level / podstawy testowania oprogramowania
 - 2022 / Audinate Dante Certification Level 3 / zaawansowane metody konfiguracji sieci i urządzeń związanych z protokołem Dante
