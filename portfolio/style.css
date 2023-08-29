@@ -33,7 +33,8 @@ blockquote:before, blockquote:after, q:before, q:after {
 }
 
 ul, li {
-	list-style-position: outside;
+    text-indent: 4ch;
+	list-style-position: inside;
     list-style-type: circle;
     overflow-wrap: break-word;
 }
@@ -41,8 +42,9 @@ ul, li {
 h1 {
     color: #ffffff;
     line-height: 1.8;
-    font-size: larger;
+    font-size:x-large;
     font-weight:bolder;
+    text-indent: 0ch;
 }
 
 h2 {
@@ -50,9 +52,11 @@ h2 {
     line-height: 1.3;
     font-size: large;
     font-weight: bold;
+    text-indent: 0ch;
 }
 
 body {
+    text-indent: 4ch;
     text-align: left;
     background-color: #001706ff;
     margin-right: 10px;
