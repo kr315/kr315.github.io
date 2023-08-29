@@ -20,11 +20,8 @@
 #               ...          - new page
 
 import random
-from os import listdir
-
-
-
-
+import os
+os.chdir(os.path.dirname(__file__))
 
 
 def create_page():
@@ -56,12 +53,12 @@ def create_index_content():
     # index_content += generate_blinds(columns=7, length=30, width=3, size_in_px=568)
     return index_content
 
-def create_portfolio_content():
-    portfolio_directory = 'content'
+def create_pictures_content():
+    portfolio_directory = 'pictures-content'
     portfolio_content = ''
     png_list = []
     txt_list = []
-    for filename in listdir(portfolio_directory):
+    for filename in os.listdir(portfolio_directory):
         if filename.endswith('.png'): png_list.append(filename[:-4])
         if filename.endswith('.txt'): txt_list.append(filename[:-4])
     for png in png_list:
@@ -76,7 +73,7 @@ def create_portfolio_content():
     for element in txt_list:
         element_txt = open(portfolio_directory + '/' + element + '.txt', 'r').read()
 
-        portfolio_content += '<div id=\'container\'><div id=\'floated\'>' + \
+        portfolio_content += '<div id=\'pictures-container\'><div id=\'floated\'>' + \
             '<img src=\'' + portfolio_directory + '\\' + element + '.png\' loading=\'lazy\'' + \
             '></div>' + element[0:4] + '<br>' + element_txt + '</div>'
 
@@ -87,6 +84,38 @@ def create_menu():
     menu = '' 
     # mdfiles tree
     return menu
+
+def create_bio():
+    
+    with open('portfolio/art-bio.md', 'r') as file_handle:
+        bio_file = file_handle.readlines()
+        html_code = '<h1>bio</h1>\n'
+
+        for idx ,line in enumerate(bio_file):
+            if '##' in line:
+                html_code += '<h2>' + line.replace('## ', '').replace('\n', '') + '</h2>\n<ul>\n'
+                print(idx)
+                for jdx ,element in enumerate(bio_file[idx+1:]):
+                    if line.startswith('!'):
+                        pass
+                    elif element.startswith('-'):
+                        splitline = element.replace('- ', '').split(' / ')
+                        html_code += '<li>'
+                        for i in splitline:
+                            html_code += i + '<br>\n'
+                        html_code += '</li>\n<br>'
+                    elif element.startswith('\n'):
+                        break
+                html_code += '</ul>\n<br>\n'
+                
+                    
+        print(html_code)
+        output_file = open('portfolio/index.html', 'w+')
+        output_file.writelines(html_code)
+        output_file.close()
+
+            
+
 
 # =============  EFFECTS  ======================
 
@@ -113,5 +142,5 @@ def generate_blinds(columns, length, width, size_in_px):
     return txt
 
 
-create_page()
-print("page generated")
+
+create_bio()
