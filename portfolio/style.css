@@ -32,9 +32,10 @@ blockquote:before, blockquote:after, q:before, q:after {
 	content: none;
 }
 
-ul {
+ul, li {
 	list-style-position: outside;
     list-style-type: circle;
+    overflow-wrap: break-word;
 }
 
 h1 {
@@ -63,11 +64,12 @@ body {
     color: #aaaaaa;
     font-weight: normal;
     line-height: 1;
+    overflow-wrap: break-word;
 }
 
-a:link { color: #ffffff; transition: color 1.8s;}
-a:visited { color: #444444; transition: color 1.8s;}
-a:hover { color: #d118c8; transition: color 0.8s;}
-a:active { color: #d118c8; transition: color 0.8s;}
+a:link { color: #ffffff; transition: color 1.8s; overflow-wrap: break-word;}
+a:visited { color: #444444; transition: color 1.8s; overflow-wrap: break-word;}
+a:hover { color: #d118c8; transition: color 0.8s; overflow-wrap: break-word;}
+a:active { color: #d118c8; transition: color 0.8s; overflow-wrap: break-word;}
 
 
