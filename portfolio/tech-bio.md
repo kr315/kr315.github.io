@@ -3,7 +3,6 @@
 - projekty i realizacja okablowania instalacji elektrycznych i danych
 - konfiguracja urządzeń elektronicznych, strojenie systemów audio i wideo
 - zarządzanie projektem i zespołem
-- 
 
 ## Metodyki
 - Agile
