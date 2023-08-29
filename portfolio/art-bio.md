@@ -21,7 +21,7 @@
 
 ## Edukacja
 !- 2023-... / Politechnika Warszawska / Informatyka
-- 2010-2014 / Inżynieria Akustyczna / Akademia Górniczo-Hutnicza w Krakowie
+- 2010-2014 / Inżynieria Akustyczna / Akademia Górniczo-Hutnicza w Krakowie / praca inżynierska: Projekt generatora sygnałów akustycznych
 - 2008-2010 / Elektronika i Telekomunikacja / Politechnika Wrocławska, Politechnika Gdańska
 - 2019 / Scrum Master Training / prowadzenie projektów w metodzie Scrum
 - 2019 / International Software Testing Qualifications Board - Foundation Level / podstawy testowania oprogramowania
