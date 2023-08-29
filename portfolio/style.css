@@ -33,11 +33,12 @@ blockquote:before, blockquote:after, q:before, q:after {
 }
 
 ul, li {
-    text-indent: 4ch;
-	list-style-position: inside;
+	list-style-position: outside;
     list-style-type: circle;
     overflow-wrap: break-word;
+    text-indent: 2ch;
 }
+
 
 h1 {
     color: #ffffff;
@@ -52,11 +53,10 @@ h2 {
     line-height: 1.3;
     font-size: large;
     font-weight: bold;
-    text-indent: 0ch;
+    text-indent: 2ch;
 }
 
 body {
-    text-indent: 4ch;
     text-align: left;
     background-color: #001706ff;
     margin-right: 10px;

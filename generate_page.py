@@ -101,13 +101,13 @@ def create_bio():
                         pass
                     elif element.startswith('-'):
                         splitline = element.replace('- ', '').replace('\n', '').split(' / ')
-                        html_code += '<li>'
+                        html_code += '<li><span>'
                         for i in splitline:
                             if i.startswith('http'):
                                 html_code += '<a href=\"' + i + '\">' + i + '</a><br>\n'
                             else:
                                 html_code += i + '<br>\n'
-                        html_code += '</li>\n<br>'
+                        html_code += '</span></li>\n<br>'
                     elif element.startswith('\n'):
                         break
                 html_code += '</ul>\n<br>\n'
