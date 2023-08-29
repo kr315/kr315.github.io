@@ -33,10 +33,10 @@ blockquote:before, blockquote:after, q:before, q:after {
 }
 
 ul, li {
-	list-style-position: outside;
+	list-style-position: inside;
     list-style-type: circle;
     overflow-wrap: break-word;
-    text-indent: 2ch;
+    text-indent: 3ch;
 }
 
 
