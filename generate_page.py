@@ -116,6 +116,24 @@ def create_bio():
         output_file.writelines(html_code)
         output_file.close()
 
+def create_visual():
+    html_code = ''
+    files = []
+    with open('snippets/head.html', 'r') as file_handle:
+        html_code += file_handle.read()
+    for filename in os.listdir('visual'):
+        files.append(filename)
+    random.shuffle(files)
+    for filename in files:
+        if filename.endswith('mp4'):
+            html_code += '<video autoplay loop muted><source src=\"' + filename + '\" type="video/mp4"></video>\n'
+        elif filename.endswith('jpg'):
+            html_code += '<img src=\"' + filename + '\">\n'    
+    output_file = open('visual/index.html', 'w+')
+    output_file.writelines(html_code)
+    output_file.close()
+
+    
 
 # =============  EFFECTS  ======================
 
@@ -141,4 +159,5 @@ def generate_blinds(columns, length, width, size_in_px):
         txt += '</div>\n'
     return txt
 
-create_bio()
+# create_bio()
+create_visual()

@@ -1,0 +1,19 @@
+body {
+    background-color: #001706ff;      /*#3a3a40;*/
+    min-width: 330px;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-top: 5px;
+    width: 100%;
+    font-size: large;
+    font-family:'Courier New', Courier, monospace; 
+    font-weight: bold;
+    line-height: 1;
+}
+
+img, video {
+    object-fit: cover;
+    width: 320px;
+    height: 240px;
+    padding: 5px;
+}
