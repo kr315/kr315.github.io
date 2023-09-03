@@ -100,3 +100,8 @@ div#content {
 div#content ul#repertuar{
     list-style-type: circle;
 }
+
+div#content li{
+    list-style-type: circle;
+    font-size: normal;
+}
