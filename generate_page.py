@@ -133,7 +133,7 @@ def create_visual():
     output_file.writelines(html_code)
     output_file.close()
 
-    
+
 
 # =============  EFFECTS  ======================
 
