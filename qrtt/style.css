@@ -82,6 +82,10 @@ a:hover {
     transition: color 0.5s;
     text-decoration: underline;
 }
+a:active { 
+    color: #666666; 
+    text-decoration: underline;
+}
 
 div#content {
     margin-right: 2%;
