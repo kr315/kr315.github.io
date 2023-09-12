@@ -105,3 +105,7 @@ div#content li{
     list-style-type: circle;
     font-size: normal;
 }
+
+.inline-link {
+    text-decoration: underline;
+}

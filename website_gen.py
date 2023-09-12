@@ -49,8 +49,8 @@ def create_gallery():
         prev = images_list[current_index-1]
         img_html_code = begin_html
         img_html_code += f'<table class="viewer"><tbody>\
-                <tr><td><a href="{prev}.html">&lt;&lt;</a></td><td><a href="../gallery.html">home</a></td><td><a href="{next}.html">&gt;&gt;</a></td></tr>\
-        <tr><td colspan="3"><img src="{img}" class="preview"></td></tr>\
+<tr><td><a href="{prev}.html">&lt;&lt;</a></td><td><a href="../gallery.html">home</a></td><td><a href="{next}.html">&gt;&gt;</a></td></tr>\
+<tr><td colspan="3"><img src="{img}" class="preview"></td></tr>\
             </tbody></table>'
         img_html_code += end_html
         with open(f'gallery/{img}.html', 'w') as img_html_page:
