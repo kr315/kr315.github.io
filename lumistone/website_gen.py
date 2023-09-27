@@ -1,17 +1,18 @@
 import os
-os.chdir('/Users/kr315/Desktop/dev/kr315.github.io/')
+os.chdir('/Users/kr315/Desktop/_dev/kr315.github.io/lumistone')
 newline = '\n'
 
 subpages = {
-    'index'     : 'o mnie',
-    'gallery'    : 'projekty',
-    'contact'   : 'kontakt'
+    # 'index'     : 'o mnie',
+    'galeria/index'    : 'projekty',
+    # 'contact'   : 'kontakt'
 }
 
 # _??? variables are replace-values for snippets 
-_page_title = 'transientlab'
-_description = 'engineering science data perception vision sound audio acoustics'
-_canonical_address = 'https://transientlab.net'
+_page_title = 'Lumi Stone'
+_description = 'illuminated stones'
+_canonical_address = 'https://lumistone.pl'
+
 _menu = '| '
 for item_page, item_name in subpages.items():
     _menu += f'<span><a href="{item_page}.html">{item_name}</a></span> | '
@@ -31,14 +32,14 @@ with open('snippets/end.html', 'r') as file:
 # create content for each page
 pass
 
-def create_gallery():
+def create_galeria():
     # generate image list, paths, description
     images_list = []
-    for filename in os.listdir('lumistone/galeria'):
-        if filename.endswith('jpg'):
+    for filename in os.listdir('galeria'):
+        if filename.endswith('jpeg'):
             images_list.append(filename)
     images_list_index = iter(images_list)
-    gallery_html = ''
+    galeria_html = ''
     for img in images_list:
         print(img)
         current_index = images_list.index(img)
@@ -49,23 +50,23 @@ def create_gallery():
         prev = images_list[current_index-1]
         img_html_code = begin_html
         img_html_code += f'<table class="viewer"><tbody>\
-<tr><td><a href="{prev}.html">&lt;&lt;</a></td><td><a href="../gallery.html">home</a></td><td><a href="{next}.html">&gt;&gt;</a></td></tr>\
-<tr><td colspan="3"><img src="{img}" class="preview"></td></tr>\
+            <tr><td><a href="{prev}.html">&lt;&lt;</a></td><td><a href="index.html">powrót</a></td><td><a href="{next}.html">&gt;&gt;</a></td></tr>\
+            <tr><td colspan="3"><img src="{img}" class="preview"></td></tr>\
             </tbody></table>'
         img_html_code += end_html
-        with open(f'gallery/{img}.html', 'w') as img_html_page:
+        with open(f'galeria/{img}.html', 'w') as img_html_page:
             img_html_page.write(img_html_code)
-        gallery_html += f'<a href="gallery/{img}.html"><img src="gallery/{img}" class="thumbnail"></a>\n'
-    return gallery_html
+        galeria_html += f'<a href="{img}.html"><img src="{img}" class="thumbnail"></a>\n'
+    return galeria_html
 
-gallery_html = create_gallery()
+
+galeria_html = create_galeria()
 
 # write all pages
 for item_page, item_name in subpages.items():
     with open(item_page+'.html', 'w') as page:
         page.write(begin_html)
         page.write(menu_html)
-        if item_page == 'gallery':
-            page.write(gallery_html)
+        if item_page == 'galeria/index':
+            page.write(galeria_html)
         page.write(end_html)
-

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Flexbox Layout</title>
+    <style>
+        /* Base styles for your content */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Flexbox styles for desktop layout (two columns) */
+        .flex-container {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .flex-item {
+            flex: 1;
+            margin: 10px;
+            padding: 20px;
+            border: 1px solid #ccc;
+        }
+
+        /* Media query for smartphone layout (one column) */
+        @media (max-width: 768px) {
+            .flex-item {
+                flex: 1 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Responsive Flexbox Layout</h1>
+        <div class="flex-container">
+            <div class="flex-item">
+                <!-- Content for column 1 -->
+                <p>Column 1 content goes here.</p>
+            </div>
+            <div class="flex-item">
+                <!-- Content for column 2 -->
+                <p>Column 2 content goes here.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
