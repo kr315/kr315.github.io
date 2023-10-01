@@ -68,12 +68,28 @@ def create_gallery():
 def create_catalogue():
     print('generating "catalogue", items:')
     site_content_html = ''
+    with open('catalogue/catalogue.md') as input_file:
+        lines = input_file.readlines()
+        items = []
+        for line in lines:
+            if line.startswith('- '):
+                items.append(line.strip()[2:].split(' / '))
+        if 'no' in lines[2]:
+            items.pop(0)
+        for item in items:
+            print(item)
+            site_content_html +=    f'<div class="c-item">\
+                                    <div class="c-item-image"><img src="catalogue/{item[2]}.jpg" class="c-item-img"></div>\
+                                    <div class="c-item-name">{item[0]}</div>\
+                                    <div class="c-item-price">{item[1]}</div>\
+                                    </div>'
 
     return site_content_html
 
 
 # create html for each
 catalogue_html = create_catalogue()
+
 gallery_html = create_gallery()
 
 # write all pages

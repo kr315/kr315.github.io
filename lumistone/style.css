@@ -210,3 +210,33 @@ input[type=submit]:hover {
         height: 240px;
     }
 }
+
+
+.c-item {
+    display: grid;
+    grid-template-areas: 
+    'c-item-image c-item-text c-item-price';
+
+}
+.c-item-img {
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+}
+.c-item-image {
+    /* border: 1px solid white; */
+    margin: auto;
+    vertical-align: middle;
+}
+.c-item-name {
+    /* border: 1px solid white; */
+    margin: auto;
+    vertical-align: middle;
+}
+.c-item-price {
+    /* border: 1px solid white; */
+    margin: auto;
+    vertical-align: text-bottom;
+    text-align: right;
+    align-self: flex-end;
+}
