@@ -4,8 +4,8 @@ newline = '\n'
 
 subpages = {
     # 'index'     : 'o mnie',
-    'galeria/index'    : 'galeria',
-    'catalogue/index'    : 'katalog',
+    'gallery'    : 'gallery',
+    'catalogue'    : 'catalogue',
     # 'contact'   : 'kontakt'
 }
 
@@ -30,17 +30,22 @@ with open('snippets/menu.html', 'r') as file:
 with open('snippets/end.html', 'r') as file:
     end_html = f"{file.read().replace(newline, '')}".format(**locals())
 
-# create content for each page
-pass
+def create_contact_form():
+    pass
 
-def create_galeria():
+# content for each subpage
+def create_landing():
+    pass
+
+def create_gallery():
     # generate image list, paths, description
+    print('generating "gallery", pictures:')
     images_list = []
-    for filename in os.listdir('galeria'):
-        if filename.endswith('jpeg'):
+    for filename in os.listdir('gallery'):
+        if filename.endswith('jpeg') or filename.endswith('jpg'):
             images_list.append(filename)
     images_list.sort()
-    galeria_html = ''
+    site_content_html = ''
     for img in images_list:
         print(img)
         current_index = images_list.index(img)
@@ -51,55 +56,33 @@ def create_galeria():
         prev = images_list[current_index-1]
         img_html_code = begin_html
         img_html_code += f'<table class="viewer"><tbody>\
-            <tr><td><a href="{prev}.html">&lt;&lt;</a></td><td><a href="index.html">powrót</a></td><td><a href="{next}.html">&gt;&gt;</a></td></tr>\
-            <tr><td colspan="3"><img src="{img}" class="preview"></td></tr>\
+            <tr><td><a href="{prev}.html">&lt;&lt;</a></td><td><a href="gallery.html">powrót</a></td><td><a href="{next}.html">&gt;&gt;</a></td></tr>\
+            <tr><td colspan="3"><img src="gallery/{img}" class="preview"></td></tr>\
             </tbody></table>'
         img_html_code += end_html
-        with open(f'galeria/{img}.html', 'w') as img_html_page:
+        with open(f'{img}.html', 'w') as img_html_page:
             img_html_page.write(img_html_code)
-        galeria_html += f'<a href="{img}.html"><img src="{img}" class="thumbnail"></a>\n'
-    return galeria_html
-
+        site_content_html += f'<a href="{img}.html"><img src="gallery/{img}" class="thumbnail" loading="lazy"></a>\n'
+    return site_content_html
 
 def create_catalogue():
-    # in portfolio_directory, there should be pairs of pict
-    portfolio_directory = 'catalogue'
-    
-    portfolio_content = ''
-    jpg_list = []
-    txt_list = []
-    for filename in os.listdir(portfolio_directory):
-        if filename.endswith('.jpg'): jpg_list.append(filename[:-4])
-        if filename.endswith('.txt'): txt_list.append(filename[:-4])
-    for jpg in jpg_list:
-        if jpg in txt_list:
-            continue
-        else:
-            # raise exception
-            print('\nerror: txt for jpg not found for ' + jpg + '\n\n')
-            exit()
+    print('generating "catalogue", items:')
+    site_content_html = ''
 
-    txt_list.sort(reverse=True)
-    for element in txt_list:
-        element_txt = open(portfolio_directory + '/' + element + '.txt', 'r').read()
-        portfolio_content += '<div id="pictures-container"><div id="floated">' + \
-            '<img src="' + portfolio_directory + "\\" + element + '.jpg" loading="lazy"' + \
-            '></div>' + element[0:4] + '<br>' + element_txt + '</div>'
-
-    # print(content_list) 
-    return portfolio_content
+    return site_content_html
 
 
+# create html for each
 catalogue_html = create_catalogue()
-galeria_html = create_galeria()
+gallery_html = create_gallery()
 
 # write all pages
 for item_page, item_name in subpages.items():
     with open(item_page+'.html', 'w') as page:
         page.write(begin_html)
         page.write(menu_html)
-        if item_page == 'galeria/index':
-            page.write(galeria_html)
-        if item_page == 'catalogue/index':
+        if item_page == 'gallery':
+            page.write(gallery_html)
+        if item_page == 'catalogue':
             page.write(catalogue_html)
         page.write(end_html)
