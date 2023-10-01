@@ -37,7 +37,7 @@ def create_gallery():
     for filename in os.listdir('lumistone/galeria'):
         if filename.endswith('jpg'):
             images_list.append(filename)
-    images_list_index = iter(images_list)
+    images_list.sort()
     gallery_html = ''
     for img in images_list:
         print(img)

@@ -4,7 +4,8 @@ newline = '\n'
 
 subpages = {
     # 'index'     : 'o mnie',
-    'galeria/index'    : 'projekty',
+    'galeria/index'    : 'galeria',
+    'catalogue/index'    : 'katalog',
     # 'contact'   : 'kontakt'
 }
 
@@ -38,7 +39,7 @@ def create_galeria():
     for filename in os.listdir('galeria'):
         if filename.endswith('jpeg'):
             images_list.append(filename)
-    images_list_index = iter(images_list)
+    images_list.sort()
     galeria_html = ''
     for img in images_list:
         print(img)
@@ -60,6 +61,36 @@ def create_galeria():
     return galeria_html
 
 
+def create_catalogue():
+    # in portfolio_directory, there should be pairs of pict
+    portfolio_directory = 'catalogue'
+    
+    portfolio_content = ''
+    jpg_list = []
+    txt_list = []
+    for filename in os.listdir(portfolio_directory):
+        if filename.endswith('.jpg'): jpg_list.append(filename[:-4])
+        if filename.endswith('.txt'): txt_list.append(filename[:-4])
+    for jpg in jpg_list:
+        if jpg in txt_list:
+            continue
+        else:
+            # raise exception
+            print('\nerror: txt for jpg not found for ' + jpg + '\n\n')
+            exit()
+
+    txt_list.sort(reverse=True)
+    for element in txt_list:
+        element_txt = open(portfolio_directory + '/' + element + '.txt', 'r').read()
+        portfolio_content += '<div id="pictures-container"><div id="floated">' + \
+            '<img src="' + portfolio_directory + "\\" + element + '.jpg" loading="lazy"' + \
+            '></div>' + element[0:4] + '<br>' + element_txt + '</div>'
+
+    # print(content_list) 
+    return portfolio_content
+
+
+catalogue_html = create_catalogue()
 galeria_html = create_galeria()
 
 # write all pages
@@ -69,4 +100,6 @@ for item_page, item_name in subpages.items():
         page.write(menu_html)
         if item_page == 'galeria/index':
             page.write(galeria_html)
+        if item_page == 'catalogue/index':
+            page.write(catalogue_html)
         page.write(end_html)
