@@ -3,8 +3,11 @@
 header: no
 
 <!--  OPIS TABELI -->
-- NAZWA / CENA [USD za m²] / ZDJĘCIE
-<!-- ELEMENTY -->
+  NAME  / PRICE [USD/m²] / PHOTO FILE
+- NAZWA / CENA [USD/m²] / ZDJĘCIE
+
+
+<!-- MATERIALS -->
 - CHANGBAI STONE / 1000 / 1changbai
 - GREEN CLOUD / 1000 / 2greencloud
 - INK JADE / 1000 / 3inkjade
@@ -49,9 +52,29 @@ header: no
 - BOLIVIAN BLUE / 4000 / 42bolivianblue
 - WHITE CRYSTAL / 2650 / 43whitecrystal
 - COLUMBIA BLUE / 2650 / 44columbiablue
-- ROOYAL BLUE SODALITE / 7000 / 45royalbluesodalite
-- LUCKY TREE / 1200 / 46luckytree
-- PEACOCK MOSAIC / 1900 / 47peacockmosaic
-- ANDSCAPE MOSAIC / 1900 / 48andscapemosaic
-- ROYAL BATTICINO / 2100 / 49royalbatticino
-- SUNFLOWER MOSAIC / 2250 / 50sunflowermosaic
+- ROYAL BLUE SODALITE / 7000 / 45royalbluesodalite
+
+
+<!-- - ROYAL BATTICINO / 2100 / 49royalbatticino -->
+
+<!-- MOSAIC MATERIALS -->
+<!-- - PEACOCK MOSAIC / 1900 / 47peacockmosaic -->
+<!-- - ANDSCAPE MOSAIC / 1900 / 48andscapemosaic -->
+<!-- - SUNFLOWER MOSAIC / 2250 / 50sunflowermosaic -->
+<!-- - WINEGLASS MOSAIC / 2300 / 51wineglassmosaic -->
+<!-- - POND OF LOTUS MOSAIC / 2300 / 52pondoflotusmosaic -->
+<!-- - HOMELAND MOSAIC / 2700 / 53homelandmosaic -->
+<!-- - GRAPE MOSAIC / 2800 / 54grapemosaic -->
+<!-- - GODDESS MOSAIC / 2900 / 55goddessmosaic -->
+<!-- - HERMES MOSAIC / 2700 / 56hermesmosaic -->
+<!-- - SPRING MOSAIC / 3400 / 58springmosaic -->
+
+<!-- - LUCKY TREE / 1200 / 46luckytree -->
+<!-- - JUNGLE LOVE / 3500 / 57junglelove -->
+
+<!-- - PANDA WHITE DOUBLE-SIDED DOOR / 1900 / 12apandawhite-two -->
+<!-- - ANDASCAPE DOOR / 2300 / 59andascapedoor -->
+<!-- - INK GREEN FOLDING SCREEN / 3800 / 60inkgreenfoldingscreen -->
+<!-- - RED DRAGON FOLDING SCREEN / 4800 / 61reddragonfoldscreen -->
+<!-- - SHANGRI-LA DOUBLE-SIDED DOOR / 6250 / 62shangriladoor -->
+<!-- - AMAZONITE DOUBLE-SIDED DOOR / 8000 / 63amazonitedoor -->

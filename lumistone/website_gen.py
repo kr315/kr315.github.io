@@ -5,7 +5,7 @@ newline = '\n'
 subpages = {
     # 'index'     : 'o mnie',
     'gallery'    : 'gallery',
-    'catalogue'    : 'catalogue',
+    'mcatalogue'    : 'material catalogue',
     # 'contact'   : 'kontakt'
 }
 
@@ -68,7 +68,7 @@ def create_gallery():
 def create_catalogue():
     print('generating "catalogue", items:')
     site_content_html = ''
-    with open('catalogue/catalogue.md') as input_file:
+    with open('mcatalogue/mcatalogue.md') as input_file:
         lines = input_file.readlines()
         items = []
         for line in lines:
@@ -76,10 +76,11 @@ def create_catalogue():
                 items.append(line.strip()[2:].split(' / '))
         if 'no' in lines[2]:
             items.pop(0)
+        items.sort(key = lambda x: x[1])
         for item in items:
             print(item)
             site_content_html +=    f'<div class="c-item">\
-                                    <div class="c-item-image"><img src="catalogue/{item[2]}.jpg" class="c-item-img"></div>\
+                                    <div class="c-item-image"><img src="mcatalogue/{item[2]}.jpg" class="c-item-img"></div>\
                                     <div class="c-item-name">{item[0]}</div>\
                                     <div class="c-item-price">{item[1]}</div>\
                                     </div>'
@@ -88,7 +89,7 @@ def create_catalogue():
 
 
 # create html for each
-catalogue_html = create_catalogue()
+mcatalogue_html = create_catalogue()
 
 gallery_html = create_gallery()
 
@@ -99,6 +100,6 @@ for item_page, item_name in subpages.items():
         page.write(menu_html)
         if item_page == 'gallery':
             page.write(gallery_html)
-        if item_page == 'catalogue':
-            page.write(catalogue_html)
+        if item_page == 'mcatalogue':
+            page.write(mcatalogue_html)
         page.write(end_html)

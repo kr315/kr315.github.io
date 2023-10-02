@@ -213,7 +213,7 @@ input[type=submit]:hover {
 
 
 .c-item {
-    /* border: 1px solid white; */
+    border: 0.5px solid rgb(64, 147, 224);
     display: grid;
     grid-template-areas: 
     "one two three";
@@ -221,11 +221,12 @@ input[type=submit]:hover {
     grid-gap: 10px;
     align-content: stretch;
     justify-content: stretch;
+    margin: 10px;
 }
 .c-item-img {
     object-fit: cover;
-    width: 200px;
-    height: 200px;
+    width: 100%;
+    height: 160px;
 }
 .c-item-image {
     grid-area: one;
