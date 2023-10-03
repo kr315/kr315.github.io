@@ -94,32 +94,33 @@ def create_menu():
 
 def create_bio():
     html_code = ''
-    with open('snippets/head.html', 'r') as file_handle:
-        html_code += file_handle.read()
-    with open('portfolio/art-bio.md', 'r') as file_handle:
+    with open('portfolio/art-bio-en.md', 'r') as file_handle:
         bio_file = file_handle.readlines()
-        html_code += '<h1>Biogram</h1>\n'
         for idx ,line in enumerate(bio_file):
             if '##' in line:
-                html_code += '<h2>' + line.replace('## ', '').replace('\n', '') + '</h2>\n<ul>\n'
+                html_code += '<h2>' + line.replace('## ', '').strip() + '</h2>\n'
                 print(idx)
                 for jdx ,element in enumerate(bio_file[idx+1:]):
                     if line.startswith('!'):
                         pass
                     elif element.startswith('-'):
                         splitline = element.replace('- ', '').replace('\n', '').split(' / ')
-                        html_code += '<li><span>'
+                        html_code += '<div class="grid-container"><div class="grid-text">'
                         for i in splitline:
                             if i.startswith('http'):
                                 html_code += '<a href="' + i + '">' + i + '</a><br>\n'
+                            elif i.startswith('img'):
+                                html_code += f'</div>\
+                            <div class="grid-img">\
+                            <img src="{splitline[-1].split(" : ")[1]}">\
+                            </div>\n<br>'
                             else:
                                 html_code += i + '<br>\n'
-                        html_code += '</span></li>\n<br>'
-                    elif element.startswith('\n'):
+                    elif element.startswith('#'):
                         break
-                html_code += '</ul>\n<br>\n'
+                html_code += '</div><br>\n'
         print(html_code)
-        output_file = open('portfolio/index.html', 'w+')
+        output_file = open('portfolio/en/index.html', 'w+')
         output_file.writelines(html_code)
         output_file.close()
 
@@ -158,3 +159,6 @@ def generate_blinds(columns, length, width, size_in_px):
         c -= 1
         txt += '</div>\n'
     return txt
+
+
+create_bio()

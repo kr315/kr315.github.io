@@ -2,9 +2,6 @@
 - Jestem inżynierem elektroniki i multimediów, zajmującym się także projektami artystycznymi. Od wielu lat współpracuję z instytucjami kultury i edukacji oraz indywidualnymi artystkami/artystami wspierając w realizacji wystaw i projektów integrujących systemy elektroniczne lub multimedialne. Chętnie dzielę się wiedzą zdobytą zarówno podczas formalnej edukacji, jak i doświadczeniem zawodowym poza obszarami kultury. Piszę programy, projektuję układy, reguluję odbiorniki i nadajniki, integruję podzespoły, a czasem – z nie mniejszą satysfakcją – wiercę dziurę na kabel w betonie lub drewnie. Lubię krytyczne i twórcze myślenie oraz ciche zaangażowanie w proces. 
 - Moje przedsięwzięcia artystyczne mają na celu dostarczać organiczne doświadczenia zmysłowe, dlatego głównym medium przekazu jest dla mnie dźwięk. 
 
-!@#!@# BDK !!!!!!!!
-
-
 ## Realizacje
 - 2023 / WRO Art Center, Wrocław / Międzynarodowe Biennale Sztuki Mediów WRO / realizacja techniczna, koordynacja prac technicznych, realizacja dźwięku, świateł i obrazu na performensach audiowizualnych / https://wro2023.wrocenter.pl/
 - 2023 / Fundacja Art Transparent, Wrocław / Survival Art Festival / realizacja montażowa w zakresie elektryki, współpraca z Michałem Michałczakiem / https://archiwum.survival.art.pl/edition/survival-21/
@@ -27,7 +24,6 @@
 - 2016 / Zespołu Państwowych Szkół Muzycznych, Żory / autorskie opracowanie i realizacja warsztatów z akustyki dla uczniów szkoły muzycznej
 
 ## Edukacja
-!- 2023-... / Politechnika Warszawska / Informatyka
 - 2022 / Audinate Dante Certification Level 3 / zaawansowane metody konfiguracji sieci i urządzeń związanych z protokołem Dante
 - 2019 / International Software Testing Qualifications Board - Foundation Level / podstawy testowania oprogramowania
 - 2019 / Scrum Master Training / prowadzenie projektów w metodzie Scrum
