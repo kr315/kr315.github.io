@@ -105,17 +105,18 @@ def create_bio():
                         pass
                     elif element.startswith('-'):
                         splitline = element.replace('- ', '').replace('\n', '').split(' / ')
-                        html_code += '<div class="grid-container"><div class="grid-text">'
+                        html_code += '<div class="grid-container">\n\t<div class="grid-text">\n'
                         for i in splitline:
                             if i.startswith('http'):
-                                html_code += '<a href="' + i + '">' + i + '</a><br>\n'
+                                html_code += '\t\t<a href="' + i + '">' + i + '</a><br>\n'
                             elif i.startswith('img'):
-                                html_code += f'</div>\
-                            <div class="grid-img">\
-                            <img src="{splitline[-1].split(" : ")[1]}">\
-                            </div>\n<br>'
+                                html_code += f'\t</div>\
+                            \n\t<div class="grid-img">\n\
+                            <img src="{splitline[-1].split(" : ")[1]}" class="img-preview">\n\
+                            </div>\n'
                             else:
-                                html_code += i + '<br>\n'
+                                html_code += '\t\t' + i + '<br>\n'
+                        html_code += '</div>\n'
                     elif element.startswith('#'):
                         break
                 html_code += '</div><br>\n'
