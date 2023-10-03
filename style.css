@@ -133,22 +133,32 @@ img {
     z-index: -10;
 }
 .background.eff1 {
-    position: absolute; top: 0px; left: 250px;
-    font-size: 600px;
+    position: fixed; 
+    top: calc(0 * 100% / 5); 
+    left: 250px;
+    font-size: 400px;
 }
 .background.eff2 {
-    position: absolute; top: 500px; right: 50px;
-    font-size: 300px;
-}
-.background.eff3 {
-    position: absolute; top: 800px; right: 150px;
+    position: fixed; 
+    top: calc(1 * 100% / 5); 
+    right: 50px;
     font-size: 500px;
 }
+.background.eff3 {
+    position: fixed; 
+    top: calc(2 * 100% / 5); 
+    right: 250px;
+    font-size: 150px;
+}
 .background.eff4 {
-    position: absolute; top: 1200px; left: 0px;
-    font-size: 700px; 
+    position: fixed; 
+    top: calc(3 * 100% / 5); 
+    left: 0px;
+    font-size: 450px; 
 }
 .background.eff5 {
-    position: absolute; top: 1800px; right: 200px;
+    position: fixed; 
+    top: calc(4 * 100% / 5); 
+    right: 200px;
     font-size: 600px;
 }
