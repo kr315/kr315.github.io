@@ -97,6 +97,12 @@ a:active {
 .portfolio {
     z-index: 10;
 }
+.vid-preview {
+    height: 100px;
+}
+.vid-preview:hover {
+    transform: scale(3);
+}
 .img-preview {
     height: 100px;
     object-fit: contain;
