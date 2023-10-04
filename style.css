@@ -11,6 +11,7 @@
     border-top: 1px solid white;
     border-bottom: 1px solid white;
     padding: 20px;
+    margin-right: 60px;
 }
 @media only screen and (max-width: 720px)
 {
@@ -110,9 +111,10 @@ img {
 }
 .grid-img {
     max-height: 100px;
-    width: 98%;
     padding: 10px;
     grid-area: 'two';
+    vertical-align: middle;
+    text-align: right;
 }
 .grid-text {
     text-align: justify;
@@ -134,14 +136,14 @@ img {
 }
 .background.eff1 {
     position: fixed; 
-    top: calc(0 * 100% / 5); 
-    left: 250px;
+    top: calc(-100px); 
+    left: -80px;
     font-size: 400px;
 }
 .background.eff2 {
     position: fixed; 
     top: calc(1 * 100% / 5); 
-    right: 50px;
+    right: 0px;
     font-size: 500px;
 }
 .background.eff3 {
