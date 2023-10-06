@@ -32,18 +32,17 @@ h3 {
     max-width: 320px;
     border: 1px solid white;
     border-bottom:hidden;
+    
 }
 .grid-img {
     text-align: center;
+    
 }
 .grid-text {
     padding: 20px;
     text-align: center;
-    font-size: 16px;
+    font-size: 14px;
 
-}
-.grid-text:hover {
-    font-size: 16px;
 }
 .img-preview {
     height: 100px;
