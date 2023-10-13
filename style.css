@@ -99,9 +99,13 @@ a:active {
 .logo-text {
     position: fixed; 
     bottom: 10px; 
-    right: 10px;
+    left: 10px;
     color: white;
     opacity: 0.5;
+}
+.logo-img {
+    position: fixed; 
+    bottom: -90vh; 
 }
 .menu {
     margin: auto;
