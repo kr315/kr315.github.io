@@ -55,11 +55,13 @@ h3 {
 .img-preview {
     height: 100px;
     object-fit: contain;
+    z-index: 50;
 }
 .img-preview:hover {
-    transform: scale(3) translateX(-0%);
+    transform: scale(3) translateY(-25%);
     margin: auto;
     cursor:grab;
+    z-index: 50;
 }
 body {
     color: #ffffff;
