@@ -80,7 +80,6 @@ a:active {
     
 }
 .g-item {
-    border: 1px solid red;
     -webkit-flex-wrap: wrap;
     font-size: var(--font-scale);
     flex-wrap: wrap;
