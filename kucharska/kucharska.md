@@ -1,6 +1,4 @@
-# Księga kucharska
-
-
+# Przygodowa księga kucharska
 
 + [Kreisburger](#kreisburger)
 + [Misja azjatycka](#misja-azjatycka)
@@ -11,6 +9,9 @@
 + [Planety Kopernika](#planety-kopernika)
 + [Czerwony proch](#czerwony-proch)
 + [Surrosół](#surrosół)
++ [Chleb Zdzicha](#chleb-zdzisia)
++ [Zdzisianka+](#zdzisianka)
++ [Sos chiński](#sos-chiński)
 
 ## Kreisburger
 - wołowina, 200g
@@ -93,6 +94,13 @@ Pieczemy przez 45 minut, przy czym na ostatnie 5 minut można włączyć termoob
 Majonez mieszamy z sosem sriracha w proporcjach 4:1 i umieszczamy w miseczce i serwujemy do ziemniaków.
 
 ## Tosty królowej Ameryki
+- chleb gruboziarnisty
+- czosnek
+- jajko
+- boczek
+- twarożek chrzanowy
+- ser gouda
+- pomidor
 
 ## Bułka podróżnicza
 - bułka żytnia
@@ -100,17 +108,21 @@ Majonez mieszamy z sosem sriracha w proporcjach 4:1 i umieszczamy w miseczce i s
 
 ## Planety Kopernika
 - filet z pstrąga różowego
-- świeży koper
-- gęsty jogurt
+- czosnek
+- sok z cytryny
+- pieprz
 - masło
 - bułka tarta
 - ziemniaki
 - marchew
 - pietruszka
 - burak
-- sok z cytryny
-- pieprz
+- świeży koper
+- gęsty jogurt
 
+Warzywa na parze. Pstrąg na parze, z masłem, czosnkiem, sokie z cytryny i pieprzem.
+
+W parowarze na dole warzywa, na górze pstrąg.
 
 ## Czerwony proch
 - fasola czerwona
@@ -119,3 +131,39 @@ Majonez mieszamy z sosem sriracha w proporcjach 4:1 i umieszczamy w miseczce i s
 - masło
 
 ## Surrosół
+- dwie nogi z kurczaka
+- litr wody
+- marchew
+- pietruszka
+- kawałek selera
+- cebula
+- ziemniak
+- sól, pieprz
+
+## Chleb Zdzisia
+- 330g zakwasu 
+- 330g mąki pełnoziarnistej, razowej (2000) - żyto, orkisz ...
+- 240g wody
+- 50g oliwy z oliwek
+- 10g czarnuszki
+- 20g siemienia lnianego
+- 20g słonecznika
+
+Różne rodzaj zakwasu, jak zrobić zakwas (wolno mielona mąka, mąka na żurek, zwykle żytnia, razowa)
+
+Dobrze wymieszać
+
+Wysmarować masłem foremkę, ułożyć w foremce i dać urosnąć
+
+Piec na 180 przez 1.5h
+
+## Zdzisianka+
+- owies pełnoziarnisty lub płatki i otręby owsiane
+- orzechy (laskowy, słonecznik, )
+- suszone owoce (suszona wiśnia)
+
+## Sos chiński
+- ogórek zielony
+- tabasco
+- czosnek
+- paparyka

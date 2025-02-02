@@ -1,5 +1,10 @@
+@media print {
+    div {
+      break-inside: avoid;
+    }
+    .pagebreak { page-break-before: always; } /* page-break-after */
 
-/* end resetting */
+}
 
 @font-face {
     font-family: "anon";
@@ -106,6 +111,7 @@ a:active {
     opacity: 0.5;
 }
 .menu {
+    visibility: hidden;
     margin: auto;
     position: fixed;
     top: 10px;
