@@ -112,11 +112,13 @@ a:active {
     position: fixed; 
     bottom: -90vh; 
 }
+
+
 .menu {
     margin: auto;
     position: fixed;
-    top: 10px;
-    left: 8px;
+    bottom: 10px;
+    right: 8px;
     background-color: black;
     max-width: 284px;
     height: 20px;
@@ -131,6 +133,8 @@ a:active {
     top: 5px;
     left: 10px;
 }
+
+
 .right {
     position: absolute;
     top: 5px;
