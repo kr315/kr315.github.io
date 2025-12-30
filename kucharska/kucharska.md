@@ -1,17 +1,21 @@
 # Przygodowa księga kucharska
 
-+ [Kreisburger](#kreisburger)
-+ [Misja azjatycka](#misja-azjatycka)
-+ [Gaz pieprzowy](#gaz-pieprzowy)
-+ [Złoto](#złoto)
-+ [Tosty królowej Ameryki](#tosty-królowej-ameryki)
-+ [Bułka podróżnicza](#bułka-podróżnicza)
-+ [Planety Kopernika](#planety-kopernika)
-+ [Czerwony proch](#czerwony-proch)
-+ [Surrosół](#surrosół)
-+ [Chleb Zdzicha](#chleb-zdzisia)
-+ [Zdzisianka+](#zdzisianka)
-+ [Sos chiński](#sos-chiński)
+1. [Przygodowa księga kucharska](#przygodowa-księga-kucharska)
+    1. [Kreisburger](#kreisburger)
+    2. [Misja azjatycka](#misja-azjatycka)
+    3. [Gaz pieprzowy](#gaz-pieprzowy)
+    4. [Złoto](#złoto)
+    5. [Tosty królowej Ameryki](#tosty-królowej-ameryki)
+    6. [Bułka podróżnicza](#bułka-podróżnicza)
+    7. [Planety Kopernika](#planety-kopernika)
+    8. [Czerwony proch](#czerwony-proch)
+    9. [Surrosół](#surrosół)
+    10. [Chleb Zdzicha](#chleb-zdzicha)
+    11. [Zdzisianka+](#zdzisianka)
+    12. [Sos chiński](#sos-chiński)
+    13. [Tiramisu keto według Zdziśka](#tiramisu-keto-według-zdziśka)
+         1. [Biszkopt](#biszkopt)
+         2. [Krem](#krem)
 
 ## Kreisburger
 - wołowina, 200g
@@ -31,7 +35,7 @@ Wołowinę ugnieść i uformować w placek o średnicy większej od bułki o ok
 
 Bułkę przekroić na pół, wstawić do piekarnika wewnętrzną stroną do góry, piekarnik nastawić na grilowanie z góry i trzymać tak bułkę kilka minut tak żeby jej wewnętrzna strona zrobiła się lekko chrupiąca. Posmarować wewnętrzne strony bułki awokado, na dolnej części ułożyć garść rukoli. Cebulę pokroić w paski i kilka takich pasków ułożyć na rukoli.
 
-Teraz smażymy mięso. Na patelnie nalewamy oleju, tak żeby jego warstwa miałą grubość okołó milimetra. Mocno rozgrzać patelnie, tak żeby olej miał konsystencję wody, położyć placek mięsa przyprawioną stroną na patelnie i lekko docisnąć łopatką. Proszę pamiętać o tym, żeby obydwie strony mięsa były przyprawione solą i pieprzem. Na jednej stronie trzymamy mięso około trzy minuty, dbając o to, żeby mięso nie przywierało do patelni. Kiedy już smażona strona będzie błyszcząco brązowa, odwracamy na drugą i trzymamy troszkę krócej niż trzy minuty. Mięso jest już częściowo nagrzane, dlatego druga strona zajmuje krócej, tak jak w przypadku sera haloumi. 
+Teraz smażymy mięso. Na patelnie nalewamy oleju, tak żeby jego warstwa miałą grubość około milimetra. Mocno rozgrzać patelnie, tak żeby olej miał konsystencję wody, położyć placek mięsa przyprawioną stroną na patelnie i lekko docisnąć łopatką. Proszę pamiętać o tym, żeby obydwie strony mięsa były przyprawione solą i pieprzem. Na jednej stronie trzymamy mięso około trzy minuty, dbając o to, żeby mięso nie przywierało do patelni. Kiedy już smażona strona będzie błyszcząco brązowa, odwracamy na drugą i trzymamy troszkę krócej niż trzy minuty. Mięso jest już częściowo nagrzane, dlatego druga strona zajmuje krócej, tak jak w przypadku sera haloumi. 
 
 Kiedy już obydwie strony są błyszcząco brązowe, układamy mięso na wcześniej przygotowanej piramidzie, gdzie ostatnią warstwą jest cebula. Przykrywamy serem haloumi i boczkiem, nakładamy górną część bułki.
 
@@ -140,7 +144,7 @@ W parowarze na dole warzywa, na górze pstrąg.
 - ziemniak
 - sól, pieprz
 
-## Chleb Zdzisia
+## Chleb Zdzicha
 - 330g zakwasu 
 - 330g mąki pełnoziarnistej, razowej (2000) - żyto, orkisz ...
 - 240g wody
@@ -148,6 +152,8 @@ W parowarze na dole warzywa, na górze pstrąg.
 - 10g czarnuszki
 - 20g siemienia lnianego
 - 20g słonecznika
+
+Zakwas to kultury bakterii, i te bakterie pozostawione w cieście na kilka godzin wyjadają cały dostępny tam cukier. To sprawia, że tak zrobiony chleb nie pleśnieje zbyt szybko - pleśń nie ma się czym żywić więc nie zasiedla takiego chleba.
 
 Różne rodzaj zakwasu, jak zrobić zakwas (wolno mielona mąka, mąka na żurek, zwykle żytnia, razowa)
 
@@ -167,3 +173,23 @@ Piec na 180 przez 1.5h
 - tabasco
 - czosnek
 - paparyka
+
+## Tiramisu keto według Zdziśka 
+
+### Biszkopt
+- 6 białek
+- 3 łyżki mąki bambusowej
+- 1/4 łyżeczki soli 
+- 3 łyżki oliwy z oliwek 
+
+Białka ubić na sztywno, dodać 3 łyżki mąki bambusowej. Smażyć na patelni placek na małym ogniu, po 15 minut na stronę.
+
+### Krem 
+- 6 żółtek
+- ksylitol
+- wanilia
+
+Żółtka utrzeć do białości z ksylitolem i odrobiną wanilii. Zmieszać z 250 g serka mascarpone. Połączyć z ubitą śmietaną 30% 200g.
+
+
+Biszkopt nasączyć mocną kawą. Wkładać kawałki biszkoptu do szklanek i pokrywać masą. Na wierzch popruszyć kakao.
