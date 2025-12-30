@@ -71,7 +71,7 @@ Danie serwujemy w misce którą dzielimy na trzy obszary. W jednym znajduje się
 
 Cebulę i paprykę kroimy na duże kawałki, właściwie cebulę wystarczy przekroić na pół i rozłożyć warstwy na kawałki a paprykę pokroić na sześć pasków.
 
-Masło klarowane rozgrzewamy do bardzo wysokiej temperatury w woku, wsypujemy sól i pieprz gruboziarnisty i trzymamy na ogniu aż pieprz zacznie wydawać duszący zapach. Wtedy wrzucamy warzywa. Temperatura musi być bardzo wysoka, tak żeby warzywa po wrzuceniu głośno syczały. Trzymamy je chwilę w takich warunkach od czasu do czasu przerzucając. Kiedy zaczną się przypalać, wtedy szybko zdejmujemy je do miski. W efekcie warzywa powinne być lekko przypalone z zewnątrz jednak prawie surowe w środku.
+Masło klarowane rozgrzewamy do bardzo wysokiej temperatury w woku, wsypujemy sól i pieprz gruboziarnisty i trzymamy na ogniu aż pieprz zacznie wydawać duszący zapach. Wtedy wrzucamy warzywa. Temperatura musi być bardzo wysoka, tak żeby warzywa po wrzuceniu głośno syczały. Trzymamy je chwilę w takich warunkach od czasu do czasu przerzucając. Kiedy zaczną się przypalać, wtedy szybko zdejmujemy je do miski. W efekcie warzywa powinny być lekko przypalone z zewnątrz jednak prawie surowe w środku.
 
 W tym samym woku, uzupełniamy masło jeśli to konieczne. Na dnie woka w powinna być jeszcze reszta pieprzu i ewentualne resztki warzyw. Wrzucamy bułkę pokrojoną na 4 plastry i przypiekamy do uzyskania chrupkości.
 
